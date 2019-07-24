@@ -4,6 +4,7 @@
 // @version      0.1
 // @description  Make the Twitter Web Client (Dark) look like Android Holo | Twitter Web Client(ダーク)の見た目をAndroid Holoっぽくする
 // @author       NNN1590
+// @license      GPLv3
 // @match        https://twitter.com/*
 // @grant        none
 // ==/UserScript==
