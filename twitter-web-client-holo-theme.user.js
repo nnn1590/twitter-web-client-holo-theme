@@ -7,6 +7,7 @@
 // @license      GPLv3
 // @match        https://twitter.com/*
 // @grant        none
+// @noframes
 // ==/UserScript==
 
 (function() {
