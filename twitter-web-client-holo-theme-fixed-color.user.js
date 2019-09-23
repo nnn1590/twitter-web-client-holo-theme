@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Twitter Web Client Holo Theme
+// @name         Twitter Web Client Holo Theme (Fixed Color)
 // @namespace    https://nnn1590.org/
 // @version      0.1
 // @description  Make the Twitter Web Client (Dark) look like Android Holo | Twitter Web Client(ダーク)の見た目をAndroid Holoっぽくする
