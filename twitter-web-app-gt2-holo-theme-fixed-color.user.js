@@ -28,8 +28,8 @@
     css.innerText = `
 @import url("https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap");
 
-#global-actions > li > a > span.text {
-    color: #ffffff;
+.gt2-nav-header {
+    color: #ffffff !important;
     text-transform: uppercase;
     font-family: Roboto, "Kosugi Maru", "Noto Sans", "Noto Sans JP", "Noto Sans CJK JP", sans-serif;
 }
@@ -44,11 +44,11 @@
     border-left: none!important;
 }
 
-#global-actions > li > a:hover,  #global-actions > li > a:focus {
+.gt2-nav-left > a:hover, .gt2-nav-left > a:focus {
     background: #666;
 }
 
-#global-actions > li > a:active {
+.gt2-nav-left > a:active {
     background: #999;
 }
 
@@ -56,6 +56,10 @@
     background: #000000;
     border-bottom: inset 2px #33b5e5;
     z-index: 2;
+}
+
+.gt2-nav-left > a.active, .gt2-nav-left > a:hover {
+    border-bottom-width: 2px !important;
 }
 
 body {
