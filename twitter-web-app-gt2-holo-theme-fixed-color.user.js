@@ -10,6 +10,13 @@
 // @noframes
 // ==/UserScript==
 
+/*
+This script using GoodTwitter2(https://github.com/Bl4Cc4t/GoodTwitter2)'s source
+Author: schwarzkatz
+License: MIT/X11
+(Author and license information were from GoodTwitter2/twitter.gt2eb.user.js(https://github.com/Bl4Cc4t/GoodTwitter2/blob/master/twitter.gt2eb.user.js))
+*/
+
 (function() {
     'use strict';
     /*document.querySelector("#global-nav-home > a > span.text").innerText = "Home";
