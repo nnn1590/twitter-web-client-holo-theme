@@ -19,7 +19,7 @@
     var holoTabLine = document.createElement("span");
     holoTabLine.class = "holotab-line"
     window.setTimeout(function() {document.querySelector('.gt2-nav-left > :nth-child(3)').insertAdjacentHTML('beforebegin', "<span class=\"holotab-line\"></span>");
-    document.querySelector('.gt2-nav-left > :nth-child(2)').insertAdjacentHTML('beforebegin', "<span class=\"holotab-line\"></span>");},5000)
+    document.querySelector('.gt2-nav-left > :nth-child(2)').insertAdjacentHTML('beforebegin', "<span class=\"holotab-line\"></span>");}, 2500)
     /*document.querySelector("#global-actions > li.moments").insertAdjacentHTML('beforebegin', "<li class=\"holotab-line\"></li>");
     document.querySelector("#global-actions > li.people.notifications").insertAdjacentHTML('beforebegin', "<li class=\"holotab-line\"></li>");
     document.querySelector("#global-actions > li.dm-nav").insertAdjacentHTML('beforebegin', "<li class=\"holotab-line\"></li>");
