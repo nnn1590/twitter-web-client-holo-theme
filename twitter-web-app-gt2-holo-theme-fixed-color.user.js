@@ -1,11 +1,14 @@
 // ==UserScript==
-// @name         Twitter Web App with GT2 Holo Theme (Fixed Color)
+// @name         Holo Theme for Twitter Web App with GT2 (Fixed Color)
 // @namespace    https://nnn1590.org/
 // @version      0.1
 // @description  Make the Twitter Web App (Dark) with GoodTwitter2 look like Android Holo | GoodTwitter2付きTwitter Web App(ダーク)の見た目をAndroid Holoっぽくする
 // @author       NNN1590
 // @license      GPLv3 or later
 // @match        https://twitter.com/*
+// @exclude      https://twitter.com/i/cards/*
+// @exclude      https://twitter.com/i/moments/edit/*
+// @exclude      https://twitter.com/i/directory/*
 // @grant        none
 // @noframes
 // ==/UserScript==
@@ -19,18 +22,10 @@ License: MIT/X11
 
 (function() {
     'use strict';
-    /*document.querySelector("#global-nav-home > a > span.text").innerText = "Home";
-    document.querySelector("#global-actions > li.moments.js-moments-tab > a > span.text").innerText = "Moments";
-    document.querySelector("#global-actions > li.people.notifications > a > span.text").innerText = "Notifications";
-    document.querySelector("#global-actions > li.dm-nav > a > span.text").innerText = "Messages";*/
     var holoTabLine = document.createElement("span");
     holoTabLine.class = "holotab-line"
     window.setTimeout(function() {document.querySelector('.gt2-nav-left > :nth-child(3)').insertAdjacentHTML('beforebegin', "<span class=\"holotab-line\"></span>");
     document.querySelector('.gt2-nav-left > :nth-child(2)').insertAdjacentHTML('beforebegin', "<span class=\"holotab-line\"></span>");}, 2500)
-    /*document.querySelector("#global-actions > li.moments").insertAdjacentHTML('beforebegin', "<li class=\"holotab-line\"></li>");
-    document.querySelector("#global-actions > li.people.notifications").insertAdjacentHTML('beforebegin', "<li class=\"holotab-line\"></li>");
-    document.querySelector("#global-actions > li.dm-nav").insertAdjacentHTML('beforebegin', "<li class=\"holotab-line\"></li>");
-    do+cument.querySelector("#search-query").insertAdjacentHTML('afterend', '<div class="left"></div><div class="right"></div>');*/
     var css = document.createElement("style");
     css.innerText = `
 @import url("https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap");
